@@ -1,1 +1,7 @@
-"# project_fiap" 
+# project - Web Design
+## Tarefas
+- [ ] Header
+- [ ] Apresentação
+- [ ] Projetos
+- [ ] Conhecimentos
+- [ ] Orçamento
