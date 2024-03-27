@@ -3,7 +3,7 @@ console.log("teste")
 //tratamento de eventos 
 document.querySelector("#paginas").addEventListener("change", calcular)
 document.querySelector("#tipo").addEventListener("change", calcular)
-document.querySelector("#protipo_sim").addEventListener("change", calcular)
+document.querySelector("#prototipo_sim").addEventListener("change", calcular)
 document.querySelector("#prazo").addEventListener("input", () => {
     const prazo = document.querySelector("#prazo").value
     document.querySelector("label[for=prazo]").innerText = (`Prazo: ${prazo}`)
