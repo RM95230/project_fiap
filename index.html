@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portifólio - Guilherme</title>
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <script src="./assets/js/script.js" defer></script>
   </head>
   <body>
     <header>
@@ -107,7 +108,7 @@
         <div class="campo linha">
           <label for="">precisa de protótipo?</label>
           <div>
-            <input type="radio" name="prototipo" id="prototipo_sim" />
+            <input type="radio" name="prototipo" id="prototipo_sim" checked />
             <label for="prototipo_sim">Sim, preciso</label>
           </div>
 
@@ -125,6 +126,7 @@
         <div class="campo linha">
           <label for="prazo">Prazo</label>
           <input type="range" min="1" max="12" id="prazo" />
+          <output id="valor">R$ 1000,00</output>
         </div>
       </form>
     </section>
